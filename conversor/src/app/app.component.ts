@@ -15,5 +15,21 @@ export class AppComponent {
       "usa",
       this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/icon/usa.svg")
     );
+    this.matIconRegistry.addSvgIcon(
+      "brazil",
+      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/icon/brazil.svg")
+    );
+    this.matIconRegistry.addSvgIcon(
+      "uk",
+      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/icon/uk.svg")
+    );
+    this.matIconRegistry.addSvgIcon(
+      "eu",
+      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/icon/eu.svg")
+    );
+    this.matIconRegistry.addSvgIcon(
+      "australia",
+      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/icon/australia.svg")
+    );
   }
 }
