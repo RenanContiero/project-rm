@@ -9,10 +9,21 @@ import {MatInputModule} from '@angular/material/input';
 import { MatIconModule } from "@angular/material/icon";
 import { HttpClientModule } from "@angular/common/http";
 
+import { CanadianComponent } from './canadian/canadian.component';
+import { DolarComponent } from './dolar/dolar.component';
+import { AustralianComponent } from './australian/australian.component';
+import { EuroComponent } from './euro/euro.component';
+import { LibraComponent } from './libra/libra.component';
+
 @NgModule({
   declarations: [
     AppComponent,
-    CalculadoraComponent
+    CalculadoraComponent,
+    CanadianComponent,
+    DolarComponent,
+    AustralianComponent,
+    EuroComponent,
+    LibraComponent
   ],
   imports: [
     BrowserModule,

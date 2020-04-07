@@ -1,6 +1,7 @@
 html, body { 
     height: 100%;
-    background: linear-gradient(60deg, #18a161 0%, #6dd7a6 100%); 
+    background: linear-gradient(60deg, #f7f5aa 0%, #84baf8 100%); 
+    /* background-image: url("./assets/img/teste.png"); */
 }
 body { margin: 0; font-family: Roboto, "Helvetica Neue", sans-serif; }
 @import "~@angular/material/prebuilt-themes/indigopink.css";
