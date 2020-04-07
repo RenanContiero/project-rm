@@ -6,6 +6,7 @@ import { CalculadoraComponent } from './calculadora/calculadora.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import {MatMenuModule} from '@angular/material/menu';
 import {MatInputModule} from '@angular/material/input';
+import { MatIconModule } from "@angular/material/icon";
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import {MatInputModule} from '@angular/material/input';
     BrowserAnimationsModule,
     MatMenuModule,
     MatInputModule,
+    MatIconModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
