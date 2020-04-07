@@ -31,5 +31,9 @@ export class AppComponent {
       "australia",
       this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/icon/australia.svg")
     );
+    this.matIconRegistry.addSvgIcon(
+      "canada",
+      this.domSanitizer.bypassSecurityTrustResourceUrl("../assets/icon/canada.svg")
+    );
   }
 }

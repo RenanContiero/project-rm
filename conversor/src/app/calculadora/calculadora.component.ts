@@ -15,7 +15,7 @@ export class CalculadoraComponent implements OnInit {
   }
 
  
-  valueDolar:number = 5.24;
+  valueDolar:number = 5.22;
   numberResult:number;
 
   calculateDolar(event){

@@ -6,9 +6,15 @@
 .buttonMenu{
     background-color: #1976d2;
     color: white;
-    font-weight: 600;
+    font-weight: 900;
     border: none;
-    width: auto;
-    min-width: 30%;
+    /* width: auto;
+    height: auto; */
+    padding: 16px;
+    min-width: 15%;
     position: relative;
+}
+.buttonMenu:hover{
+    background-color: #4b90d4;
+    border-radius: 6px;
 }
